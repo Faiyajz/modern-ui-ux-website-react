@@ -1,11 +1,22 @@
 import React from 'react';
 
+import {Header, Blog, Possibility, Features, WhatReact, Footer} from './containers';
 import {Article, Brand, CTA, Feature, Navbar} from './components';
 
 const App = () => {
   return (
-    <div>
-        <h1>Modern UI/UX website in Reactjs</h1>
+    <div className='App'>
+      <div className='gradient__bg'>
+          <Navbar/>
+          <Header/>
+      </div>
+      <Brand/>
+      <WhatReact/>
+      <Features/>
+      <Possibility/>
+      <CTA/>
+      <Blog/>
+      <Footer/>
     </div>
   )
 }
