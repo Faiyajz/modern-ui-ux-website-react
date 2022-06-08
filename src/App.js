@@ -3,6 +3,8 @@ import React from 'react';
 import {Header, Blog, Possibility, Features, WhatReact, Footer} from './containers';
 import {Article, Brand, CTA, Feature, Navbar} from './components';
 
+import './App.css';
+
 const App = () => {
   return (
     <div className='App'>
